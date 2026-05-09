@@ -1,0 +1,14 @@
+### Branch Strategy and Step‑by‑Step GitHub Workflow
+
+#### 1. Initial setup
+
+1. Create a new repo on GitHub:  
+   `Customer-Information-System` (or similar).
+2. Locally:
+   ```bash
+   git init
+   git remote add origin https://github.com/<your-username>/<your-repo>.git
+   git add index.html style.css script.js README.md
+   git commit -m "Initial commit: CRM MVP"
+   git branch -M main
+   git push -u origin main
