@@ -56,15 +56,6 @@ Fill in the form and click “Save Customer”.
 Use the search bar to filter customers.
 Click Edit to modify a record, Delete to remove it.
 
-Development Workflow
-We follow a branch-based workflow with clear naming:
-main – stable, production-ready code
-develop – integration branch for ongoing work
-feature/* – new features (e.g. feature/reporting-dashboard)
-bugfix/* – fixes for issues (e.g. bugfix/fix-loyalty-calculation)
-docs/* – documentation updates (e.g. docs/update-readme)
-release/* – optional, for preparing tagged releases
-
 Future Enhancements
 Advanced reporting and analytics dashboards
 Export/import customer data (CSV/JSON)
